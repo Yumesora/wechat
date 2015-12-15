@@ -11,9 +11,9 @@
 
 include __DIR__.'/../vendor/autoload.php';
 
-$options = include __DIR__.'/config.php';
-
 use Overtrue\WeChat\Application;
+
+$options = include __DIR__.'/config.php';
 
 $app = new Application($options);
 

@@ -11,7 +11,7 @@
 
 session_start();
 
-include __DIR__.'/base.php';
+include __DIR__.'/../base.php';
 
 $oauth     = $app['oauth'];
 $targetUrl = !empty($_GET['redirect']) ? $_GET['redirect'] : '/'; // 目标页面

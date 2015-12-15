@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-include __DIR__.'/base.php';
+include __DIR__.'/../base.php';
 
 $oauth = $app['oauth'];
 
